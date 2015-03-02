@@ -1,0 +1,124 @@
+#signup_layer {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	top: 0px;
+
+	display: none;
+}
+#signup_layer_shade {
+	width: 100%;
+	height: 100%;
+
+	background-color: #000000;
+
+	filter: alpha(opacity=50); /*IE滤镜，透明度50%*/
+	-khtml-opacity: 0.5; /*旧版本IE滤镜，透明度50%*/
+	-moz-opacity: 0.5; /*Firefox私有，透明度50%*/
+	opacity: 0.5;/*其他，透明度50%*/
+}
+#signup_back {
+	width: 60px;
+	height: 60px;
+
+	border: 0 none;
+	background-color: #f5f5f5;
+
+	padding: 10px 10px;
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+	cursor: pointer;
+}
+#signup_back:hover {
+	background-color: #fdfdfd;
+}
+#signup_back:active {
+	background-color: #f2f2f2;
+}
+#signup_back img {
+	width: 40px;
+	height: 40px;
+}
+#signup_box {
+	width: 480px;
+	height: 450px;
+
+	border-width: 1px;
+	background-color: #f8f8f8;
+	box-shadow: 3px 3px 5px #333333;
+
+	position: absolute;
+
+	left: 50%;
+	margin-left: -240px;
+	top: 50%;
+	margin-top: -225px;
+}
+#signup_form {
+	height: 100%;
+}
+#signup_form_textbox {
+	width: 80%;
+	height: 80%;
+
+	margin: 0px auto;
+}
+#signup_form_textbox img {
+	width: 90px;
+	height: 45px;
+
+	position: relative;
+	top: 48px;
+	left: 20px;
+
+	cursor: pointer;
+}
+#signup_form_button {
+	width: 125px;
+	height: 20%;
+
+	margin: 0px auto;
+}
+#signup_button {
+	width: 125px;
+	height: 50px;
+
+	font-size: 1em;
+	border: 0 none;
+	cursor: pointer;
+
+	background-color: #48a9f3;	
+	box-shadow: 1px 1px 3px #888888;
+}
+#signup_button:hover {
+	background-color: #6abaf4;
+	box-shadow: 1px 1px 5px #aaaaaa;
+}
+#signup_button:active {
+	background-color: #3798d2;
+	box-shadow: -0.5px -0.5px 5px #aaaaaa;
+}
+.textbox {
+	width: 90%;
+	height: 45px;
+	
+	border: 0 none;
+	background-color: #fdfdfd;
+	box-shadow: 0.5px 0.5px 5px #aaaaaa;
+
+	padding: 0px 5%;
+	margin: 15px auto;
+
+	position: relative;
+	top: 30px;
+}
+.textbox:hover {
+	box-shadow: 0.5px 0.5px 15px #aaaaaa;
+}
+.textbox.checkcode {
+	width: 60%;
+}

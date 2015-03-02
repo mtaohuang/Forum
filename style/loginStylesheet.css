@@ -1,0 +1,52 @@
+html,
+body {
+	margin: 0px;
+	overflow: hidden;
+	height: 100%;
+}
+/*--------------------------------------------------*/
+#container {
+	font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+	height: 100%;
+	width: 100%;
+	background-color: #016fc1;
+}
+.contentCard {
+	padding: 20px;
+	box-shadow: 2px 2px 5px #888888;
+}
+/*--------------------------------------------------*/
+#rightArea {
+	color: #333333;
+	overflow: hidden;
+	width: 40%;
+	height: 100%;
+	background-color: #f5f5f5;
+	float: right;
+}
+#rightArea .contentCard {
+	text-align: center;
+	background-color: #f8f8f8;
+	width: 60%;
+	height: 30%;
+	margin-top: 25%;
+	margin-left: 20%;
+}
+/*--------------------------------------------------*/
+#leftArea {
+	color: #f7f7f7;
+	width: 60%;
+	height: 100%;
+	background-color: #016fc1;
+	float: right;
+	box-shadow: 5px 0px 5px #888888;
+
+	/*Character Selecting Forbidden*/
+	-moz-user-select: none; /*FireFox*/   
+	-webkit-user-select: none;  /*Webkit*/   
+	-ms-user-select: none;   /*IE*/   
+	-khtml-user-select: none; /*Early Browsers*/   
+	user-select: none;
+}
+/*--------------------------------------------------*/
