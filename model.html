@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="style/model_sheet.css" />
+		<link rel="stylesheet" type="text/css" href="style/login_signup_sheet.css" />
+		<link rel="stylesheet" type="text/css" href="style/action_bar_sheet.css" />
+		<script type="text/javascript" src="script/main.js"></script>
+		<script type="text/javascript" src="script/login_signup_js.js"></script>
+
+		<title>模板</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="left">
+				<div id="left_head">
+					<div id="left_head_img">
+						<img src="image/Club.png" />
+					</div>
+					<div id="left_head_txt">
+						Club 名称
+					</div>
+				</div>
+				<div id="left_body">
+					<button id="left_body_article" onclick="displayContent('left_body_article', 'left_body_discussion')">
+						文章
+					</button>
+					<button id="left_body_discussion" onclick="displayContent('left_body_discussion', 'left_body_article')">
+						热点讨论
+					</button>
+				</div>
+				<div id="left_foot">
+					<button id="left_foot_profile">
+						<div id="left_foot_profile_img">
+							<img src="image/userImg.png">
+						</div>
+						<div id="left_foot_profile_username">
+							个人资料
+						</div>
+					</button>
+					<button id="left_foot_exit">
+						退出
+					</button>
+					<button id="left_foot_login" onclick="displayLayer('login_layer')">
+						登录
+					</button>
+					<button id="left_foot_signup" onclick="displayLayer('signup_layer')">
+						注册
+					</button>
+				</div>
+				<script type="text/javascript">
+					if (document.cookie.split(";")[0].split("=")[1] != null) 
+					{
+						document.getElementById('left_foot_login').style.display = 'none';
+						document.getElementById('left_foot_signup').style.display = 'none';
+						document.getElementById('left_foot_profile').style.display = 'block';
+						document.getElementById('left_foot_exit').style.display = 'block';
+					}
+					else
+					{
+						document.getElementById('left_foot_login').style.display = 'block';
+						document.getElementById('left_foot_signup').style.display = 'block';
+						document.getElementById('left_foot_profile').style.display = 'none';
+						document.getElementById('left_foot_exit').style.display = 'none';
+					}
+					var username = document.cookie.split(";")[0].split("=")[1];
+					document.getElementById('left_foot_profile_username').innerText = username;
+				</script>
+			</div>
+			<div id="middle">
+				<div id="middle_head">
+					<p id="middle_head_title">
+						
+					</p>
+				</div>
+				<div id="middle_body">
+					<div class="middle_body_textcard">
+						<div class="title">
+							<p>标题</p>
+						</div>
+						<div class="brief">
+							<p>内容简介</p>
+						</div>					
+					</div>
+				</div>
+				<div id="middle_foot">
+					
+				</div>
+			</div>
+			<div id="right">
+				<div id="right_head">
+					<p id="right_head_title">
+						标题
+					</p>
+				</div>
+				<div id="right_body">
+					<div id="right_body_content">
+						我是刘义盟				
+					</div>
+					<div id="right_body_comment">
+						（评论）				
+					</div>
+				</div>
+				<div id="right_foot">
+					
+				</div>
+			</div>
+			<div id="action_bar">
+				<div id="action_bar_shade">
+					
+				</div>
+				<button id="action_bar_search" onclick="boxDisplay('search_panel')">
+					<img src="image/search.png" />
+				</button>
+				<button id="action_bar_like">
+					<img src="image/like_before.png" />
+				</button>
+				<button id="action_bar_collect">
+					<img src="image/collect_before.png" />
+				</button>			
+				<button id="action_bar_reply" onclick="boxDisplay('reply_panel')">
+					<img src="image/reply.png" />
+				</button>				
+			</div>
+			<div id="search_panel">
+				<div id="search_panel_shade">
+					<form id="search_form" name="search_form">
+						<input id="search_box" type="text" name="keywords" placeholder="搜索" />
+					</form>
+				</div>
+			</div>
+			<div id="reply_panel">
+				<div id="reply_panel_shade">
+					<form id="reply_form" name="reply_form">
+						<textarea id="reply_box" name="reply" placeholder="回复"></textarea>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="signup_layer">
+			<div id="signup_layer_shade">
+				
+			</div>
+			<button id="close_layer" onclick="hideLayer('signup_layer')">
+				<img src="image/close.png">
+			</button>
+			<div id="signup_box">
+				<form id="signup_form" name="signup_form">
+					<div id="signup_form_textbox">
+						<input class="textbox" id="signup_username" type="email" name="username" placeholder="电子邮箱" />
+						<input class="textbox" id="signup_password" type="password" name="password" placeholder="密码" />
+						<input class="textbox" id="signup_password_check" type="password" name="password_check" placeholder="重复确认密码" />
+						<input class="textbox checkcode" id="signup_checkcode" type="text" name="checkcode" placeholder="验证码" />
+						<img src="image/Club.png" />
+					</div>
+					<div id="signup_form_button">
+						<input id="signup_button" type="submit" name="signup_button" value="注册" />
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="login_layer">
+			<div id="login_layer_shade">
+				
+			</div>
+			<button id="close_layer" onclick="hideLayer('login_layer')">
+				<img src="image/close.png">
+			</button>
+			<div id="login_box">
+				<form id="login_form" name="signup_form">
+					<div id="login_form_textbox">
+						<input class="textbox" id="login_username" type="email" name="username" placeholder="电子邮箱" />
+						<input class="textbox" id="login_password" type="password" name="password" placeholder="密码" />
+						<input class="textbox checkcode" id="login_checkcode" type="text" name="checkcode" placeholder="验证码" />
+						<img src="image/Club.png" />
+						<br /><br /><br /><br />
+						&nbsp;&nbsp;
+						<input id="checkbox" type="checkbox" name="autoFlag" value="1" />
+						记住用户名和密码
+					</div>
+					<div id="login_form_button">
+						<input id="login_button" type="submit" name="login_button" value="登录" onclick="login()" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
