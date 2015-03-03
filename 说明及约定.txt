@@ -1,0 +1,2 @@
+1.自动登录的checkbox，name为autoFlag。
+2.（后台）验证是否自动登录的cookie格式为"id" "yes/no" 7天。
