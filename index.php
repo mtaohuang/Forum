@@ -31,7 +31,7 @@
 						登录/个人信息
 						<img src="image/userImg.png">
 					</button>
-                                    <a class="left_foot_button" id="register_button" href="login.php">
+                        <a class="left_foot_button" id="register_button" href="login.php">
 						注册/退出
 					</a>
 				</div>

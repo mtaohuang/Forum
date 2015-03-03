@@ -1,0 +1,264 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html, body {
+	overflow: auto;
+	height: 100%;
+	
+	background-color: #f7f7f7;
+	
+	font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	min-width: 1366px;
+	min-height: 640px;
+}
+
+#left {
+	width: 200px;
+	height: 100%;
+
+	color: #f7f7f7;
+	background-color: #016fc1;
+	box-shadow: 5px 0px 5px #888888;
+
+	float: left;
+	position: relative;
+	left: 0px;
+
+	/*Character Selecting Forbidden*/
+	-moz-user-select: none; /*FireFox*/   
+	-webkit-user-select: none;  /*Webkit*/   
+	-ms-user-select: none;   /*IE*/   
+	-khtml-user-select: none; /*Early Browsers*/   
+	user-select: none;
+}
+#left_head {
+	width: 100%;
+	height: 25%;
+	min-height: 160px;
+
+	margin: 0px auto;
+}
+#left_head_img {
+	width: 90px;
+	height: 90px;
+
+	margin: 0px auto;
+	position: relative;
+	top: 15px;
+}
+#left_head_img img {
+	width: 90px;
+	height: 90px;
+
+	border-radius: 50%;
+}
+#left_head_txt {
+	width: 100%;
+	height: 45px;
+
+	background-color: #0062ad;
+	font-size: 25px;
+	line-height: 45px;
+	text-align: center;
+
+	position: relative;
+	top: 30px;
+
+	cursor: default;
+}
+#left_body {
+	width: 100%;
+	height: 60%;
+	min-height: 384px;
+
+	margin: 0px auto;
+}
+#left_body_article, #left_body_discussion {
+	width: 100%;
+	height: 50px;
+
+	color: #f7f7f7;
+	background-color: #016fc1;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 50px;	
+	text-align: left;
+	border: 0 none;
+
+	padding: 0px 15px;
+	position: relative;
+	
+
+	cursor: pointer;
+}
+#left_body_article {
+	top: 10px;
+}
+#left_body_discussion {
+	top: 11px;
+}
+#left_body_article:hover, #left_body_discussion:hover {
+	background-color: #2687d1 !important;
+}
+#left_foot {
+	width: 100%;
+	height: 15%;
+	min-height: 96px;
+
+	margin: 0px auto;
+}
+
+#left_foot_profile, #left_foot_exit, #left_foot_login, #left_foot_signup{
+	width: 100%;
+	height: 48px;
+
+	color: #f7f7f7;
+	background-color: #016fc1;
+	font-size: 15px;
+	font-weight: lighter;
+	line-height: 48px;	
+	text-align: left;
+	border: 0 none;
+
+	padding: 0px 15px;
+
+	cursor: pointer;
+}
+#left_foot_profile:hover, #left_foot_exit:hover, #left_foot_login:hover, #left_foot_signup:hover {
+	background-color: #0062ad;
+}
+#left_foot_profile_img {
+	width: 40px;
+	height: 48px;
+
+	float: right;
+}
+
+#left_foot_profile img {
+	width: 40px;
+	height: 40px;
+
+	border-radius: 50%;
+
+	position: relative;
+	top: 4px;
+}
+#left_foot_login, #left_foot_signup {
+	display: block;
+}
+#left_foot_profile, #left_foot_exit {
+	display: none;
+}
+
+#middle {
+	width: 530px;
+	height: 100%;
+
+	background-color: #f7f7f7;
+	box-shadow: 2.5px 0px 5px #aaaaaa;
+
+	float: left;
+	position: relative;
+	left: 7.5px;
+}
+#middle_head {
+	width: 100%;
+	height: 60px;
+
+	line-height: 60px;
+	text-align: center;
+	font-size: 24px;
+
+	cursor: default;
+	box-shadow: 0px 2.5px 2.5px #aaaaaa;
+
+	/*Character Selecting Forbidden*/
+	-moz-user-select: none; /*FireFox*/   
+	-webkit-user-select: none;  /*Webkit*/   
+	-ms-user-select: none;   /*IE*/   
+	-khtml-user-select: none; /*Early Browsers*/   
+	user-select: none;
+}
+#middle_body {
+	width: 100%;
+	height: 90%;
+	min-height: 575px;
+
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.middle_body_textcard {
+	padding: 2%;
+	width: 90%;
+	height: 90px;
+	margin: 10px auto;
+	box-shadow: 1px 1px 3px #888888;
+}
+.middle_body_textcard .title {
+	border-bottom: 1px solid #dddddd;
+}
+.middle_body_textcard .brief {
+	font-size: small;
+	color: #555555;
+}
+
+#middle_foot {
+	width: 100%;
+	height: auto;
+}
+
+#right {
+	width: 45%;
+	height: 100%;
+
+	background-color: #f7f7f7;
+
+	float: left;
+	position: relative;
+	left: 20px;
+}
+#right_head {
+	width: 90%;
+	height: 60px;
+
+	border-bottom: 1px solid #dddddd;
+
+	line-height: 60px;
+	text-align: left;
+	font-size: 30px;
+
+	float: left;
+}
+#right_body {
+	width: 100%;
+	height: auto;
+	max-height: 90%;
+
+	overflow-x: auto;
+	overflow-y: scroll;
+}
+
+#right_body_content, #right_body_comment {
+	width: 85%;
+	height: auto;
+
+	margin: 10px 0px;
+	padding: 2%;	
+}
+#right_body_content {
+	box-shadow: 1px 1px 3px #888888;
+}
+#right_body_comment {
+	border: 1px solid #dddddd;
+}
+#right_foot {
+	width: 100%;
+	height: auto;
+}
