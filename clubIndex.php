@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="style/login_signup.css" />
 		<link rel="stylesheet" type="text/css" href="style/action_bar.css" />
 		<script type="text/javascript" src="script/main.js"></script>
-		<script type="text/javascript" src="script/login_signup_js.js"></script>
+		<script type="text/javascript" src="script/login_signup.js"></script>
 
 		<title></title>
 	</head>
