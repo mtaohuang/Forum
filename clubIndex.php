@@ -144,7 +144,7 @@
 						<input class="textbox" id="signup_password_check" type="password" name="password_check" placeholder="重复确认密码" />
 						<input class="textbox checkcode" id="signup_checkcode" type="text" name="checkcode" placeholder="验证码" />
 						<!--验证码-->
-                                                <img id="checkcode" src="image/getVerify.php" />
+                        <img id="checkcode" src="image/getVerify.php" />
 					</div>
 					<div id="signup_form_button">
 						<input id="signup_button" type="submit" name="signup_button" value="注册" />
@@ -166,7 +166,7 @@
 						<input class="textbox" id="login_password" type="password" name="password" placeholder="密码" />
 						<input class="textbox checkcode" id="login_checkcode" type="text" name="checkcode" placeholder="验证码" />
 						<!--验证码-->
-                                                <img id="checkcode" src="image/getVerify.php" />
+                        <img id="checkcode" src="image/getVerify.php" />
 						<br /><br /><br /><br />
 						&nbsp;&nbsp;
 						<input id="checkbox" type="checkbox" name="autoFlag" value="1" />
