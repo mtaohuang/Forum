@@ -53,7 +53,7 @@ function fetchOne($sql,$result_type=MYSQL_ASSOC){
 }
 
 function fetchAll($sql,$result_type=MYSQL_ASSOC){
-    $result-mysql_query($sql);
+    $result=mysql_query($sql);
     while(@$row=  mysql_fetch_array($result,$result_type)){
         $rows[]=$row;
     }
