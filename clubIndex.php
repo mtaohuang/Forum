@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" type="text/css" href="style/model_sheet.css" />
-		<link rel="stylesheet" type="text/css" href="style/login_signup_sheet.css" />
-		<link rel="stylesheet" type="text/css" href="style/action_bar_sheet.css" />
+		<link rel="stylesheet" type="text/css" href="style/club_index.css" />
+		<link rel="stylesheet" type="text/css" href="style/login_signup.css" />
+		<link rel="stylesheet" type="text/css" href="style/action_bar.css" />
 		<script type="text/javascript" src="script/main.js"></script>
 		<script type="text/javascript" src="script/login_signup_js.js"></script>
 
@@ -32,6 +32,7 @@
 					</button>
 				</div>
 				<div id="left_foot">
+					<!--用户登录时显示left_foot_profile和left_foot_exit，未登录显示left_foot_login和left_foot_signup-->
 					<button id="left_foot_profile">
 						<!--用户头像-->
 						<div id="left_foot_profile_img">
@@ -52,24 +53,6 @@
 						注册
 					</button>
 				</div>
-				<script type="text/javascript">
-					if (document.cookie.split(";")[0].split("=")[1] != null) 
-					{
-						document.getElementById('left_foot_login').style.display = 'none';
-						document.getElementById('left_foot_signup').style.display = 'none';
-						document.getElementById('left_foot_profile').style.display = 'block';
-						document.getElementById('left_foot_exit').style.display = 'block';
-					}
-					else
-					{
-						document.getElementById('left_foot_login').style.display = 'block';
-						document.getElementById('left_foot_signup').style.display = 'block';
-						document.getElementById('left_foot_profile').style.display = 'none';
-						document.getElementById('left_foot_exit').style.display = 'none';
-					}
-					var username = document.cookie.split(";")[0].split("=")[1];
-					document.getElementById('left_foot_profile_username').innerText = username;
-				</script>
 			</div>
 			<div id="middle">
 				<div id="middle_head">
