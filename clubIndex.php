@@ -1,3 +1,18 @@
+<?php
+if (!defined("ROOT")) {
+    define("ROOT", "D:/xampp/htdocs/forum_");
+}
+require_once ROOT.'/lib/common.php';
+require_once ROOT.'/lib/mysql.func.php';
+if($_COOKIE["autoLogin"]=='yes')
+{
+    alertMes("自动登录");
+    $sql='select * from users where id='.$_COOKIE["id"];
+    if(($information=fetchAll($sql))!=NULL){
+        print_r($information);
+    }
+}
+?>
 ﻿<!DOCTYPE html>
 <html>
 	<head>
@@ -160,7 +175,7 @@
 				<img src="image/close.png">
 			</button>
 			<div id="login_box">
-				<form id="login_form" name="signup_form">
+                            <form id="login_form" name="signup_form" action="login_process.php" method="POST">
 					<div id="login_form_textbox">
 						<input class="textbox" id="login_username" type="email" name="username" placeholder="电子邮箱" />
 						<input class="textbox" id="login_password" type="password" name="password" placeholder="密码" />
