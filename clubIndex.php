@@ -175,7 +175,7 @@ if($_COOKIE["autoLogin"]=='yes')
 				<img src="image/close.png">
 			</button>
 			<div id="login_box">
-                            <form id="login_form" name="signup_form" action="login_process.php" method="POST">
+                    <form id="login_form" name="signup_form" action="login_process.php" method="POST">
 					<div id="login_form_textbox">
 						<input class="textbox" id="login_username" type="email" name="username" placeholder="电子邮箱" />
 						<input class="textbox" id="login_password" type="password" name="password" placeholder="密码" />
