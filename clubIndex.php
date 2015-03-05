@@ -4,16 +4,16 @@ if (!defined("ROOT")) {
 }
 require_once ROOT.'/lib/common.php';
 require_once ROOT.'/lib/mysql.func.php';
-if($_COOKIE["autoLogin"]=='yes')
+
+if(isset($_COOKIE['autoLogin'])&&$_COOKIE["autoLogin"]=='yes')
 {
-    alertMes("自动登录");
     $sql='select * from users where id='.$_COOKIE["id"];
     if(($information=fetchAll($sql))!=NULL){
-        print_r($information);
     }
 }
 ?>
 ﻿<!DOCTYPE html>
+
 <html>
 	<head>
 		<meta charset="UTF-8" />
@@ -51,7 +51,7 @@ if($_COOKIE["autoLogin"]=='yes')
 					<button id="left_foot_profile">
 						<!--用户头像-->
 						<div id="left_foot_profile_img">
-							<img src="image/">
+                                                    <img src="getInfo.php['head']" alt="头像">
 						</div>
 						<!--用户昵称-->
 						<div id="left_foot_profile_username">
