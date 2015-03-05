@@ -1,6 +1,6 @@
 <?php
 if (!defined("ROOT")) {
-    define("ROOT", "D:/xampp/htdocs/forum_");
+    define("ROOT", "D:/xampp/htdocs/forum");
 }
 include_once (ROOT.'/lib/common.php');
 require_once (ROOT.'/core/admin.inc.php');

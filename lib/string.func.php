@@ -1,6 +1,6 @@
 <?php
 if (!defined("ROOT")) {
-    define("ROOT", "D:/xampp/htdocs/forum_");
+    define("ROOT", "D:/xampp/htdocs/forum");
 }
 function buildRandomString($type = 1, $length = 4) {
     if ($type == 1) {

@@ -1,6 +1,6 @@
 <?php
 if (!defined("ROOT")) {
-    define("ROOT", "D:/xampp/htdocs/forum_");
+    define("ROOT", "D:/xampp/htdocs/forum");
 }
 /*php.ini中有uploads的相关配置
  * file_uploads=On;表示开启文件上传的支持；

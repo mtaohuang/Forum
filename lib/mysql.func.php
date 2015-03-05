@@ -1,6 +1,6 @@
 <?php
 if (!defined("ROOT")) {
-    define("ROOT", "D:/xampp/htdocs/forum_");
+    define("ROOT", "D:/xampp/htdocs/forum");
 }
 //此处require运行无误，且必须这样写
 require_once ROOT.'/conf/configs.php';

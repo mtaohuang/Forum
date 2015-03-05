@@ -1,6 +1,6 @@
 <?php
 if (!defined("ROOT")) {
-    define("ROOT", "D:/xampp/htdocs/forum_");
+    define("ROOT", "D:/xampp/htdocs/forum");
 }
 header("contern-type:text/html;charset=utf-8");
 ?>
