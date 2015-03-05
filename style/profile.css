@@ -1,0 +1,17 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html, body {
+	overflow: auto;
+	height: 100%;
+	
+	background-color: #f7f7f7;
+	
+	font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+}
+
+#container {
+	width: 100%;
+}
