@@ -12,6 +12,9 @@
 			<header>
 				
 			</header>
+			<div id="wrapper">
+				
+			</div>
 			<footer>
 				
 			</footer>
