@@ -9,9 +9,12 @@
 	</head>
 	<body>
 		<div id="container">
-			<div >
+			<header>
 				
-			</div>
+			</header>
+			<footer>
+				
+			</footer>
 		</div>
 	</body>
 </html>

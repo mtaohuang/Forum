@@ -1,4 +1,5 @@
-﻿1.自动登录的checkbox，name为autoFlag。
-2.（后台）验证是否自动登录的cookie格式为"autoLogin" "yes/no" 7天。
-3.（后台）为实现自动登陆设置一个名为"id"的cookie 每次有用户登陆即在登录中设定此值和autoLogin的值。
-4.（命名）页面采用驼峰命名法，例如clubIndex.php。其它文件采用下划线加关键字命名法，文件夹为单个单词命名。
+﻿1.自动登录的checkbox，name为autoFlag
+2.（后台）验证是否自动登录的cookie格式为"autoLogin" "yes/no" 7天
+3.（后台）为实现自动登陆设置一个名为"id"的cookie 每次有用户登陆即在登录中设定此值和autoLogin的值
+4.（命名）页面采用驼峰命名法，例如clubIndex.php。其它文件采用下划线加关键字命名法，文件夹为单个单词命名
+5.尽量使用HTML5中的标签，参考地址：http://www.w3school.com.cn/tags/html_ref_byfunc.asp
