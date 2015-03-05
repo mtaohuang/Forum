@@ -5,3 +5,4 @@
 5.尽量使用HTML5中的标签，参考地址：http://www.w3school.com.cn/tags/html_ref_byfunc.asp
 6.尽量多的使用CSS3特性。
 7.暂时先不要使用Bootstrap，同时参考其他网站代码时注意要融会贯通，而不要只是复制粘贴。
+8.命名上，8个字母以上有常用缩写的使用缩写
