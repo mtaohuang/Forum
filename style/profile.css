@@ -25,9 +25,7 @@ html, body {
 	/*定位*/
 
 	/*其它*/
-	overflow: auto;
 }
-
 #container {
 	/*尺寸*/
 	width: 100%;
@@ -35,20 +33,6 @@ html, body {
 	/*外观*/
 
 	/*定位*/
-
-	/*其它*/
-}
-
-.content {
-	/*尺寸*/
-	width: 1090px;
-	height: 100%;
-
-	/*外观*/
-	background-color: #333333;
-
-	/*定位*/
-	margin: 0px auto;
 
 	/*其它*/
 }
@@ -62,46 +46,40 @@ header {
 	background-color: #000000;
 
 	/*位置*/
-	padding: 10px 0px;
+	position: fixed;
 
 	/*其它*/
 }
+@media (max-device-width: 1366px) {
+	.nav {
+		/*尺寸*/
+		width: 80%;
+		height: 50px;
+		min-width: 600px;/*待定*/
 
-#logo {
-	/*尺寸*/
-	height: 40px;
+		/*外观*/
+		background-color: #999999;
 
-	/*外观*/
-	font-size: 1.75em;
-	font-weight: bold;
-	color: #f5f5f5;
+		/*定位*/
+		margin: 0px auto;
 
-	/*位置*/
-	line-height: 40px;
-	float: left;
-
-	/*其它*/
+		/*其它*/
+	}
 }
-#nav_bar ul {
-	list-style-type: none;
-	text-align: center;
-}
-#nav_bar ul li {
-	display: inline;
-}
-#nav_bar ul li a {
-	/*尺寸*/
-	width: 100px;
+@media (min-device-width: 1920px) {
+	.nav {
+		/*尺寸*/
+		width: 1536px;
+		height: 50px;
 
-	/*外观*/
-	text-decoration: none;
+		/*外观*/
+		background-color: #999999;
 
-	/*定位*/
-	line-height: 40px;
-	float: left;
+		/*定位*/
+		margin: 0px auto;
 
-	/*其它*/
-	display: block;
+		/*其它*/
+	}
 }
 
 footer {
@@ -121,40 +99,12 @@ footer {
 #wrapper {
 	/*尺寸*/
 	width: 100%;
-	height: 600px;
+	height: 800px;
 
 	/*外观*/
 
 	/*定位*/
 	margin: 0px auto;
-
-	/*其它*/
-}
-#options {
-	/*尺寸*/
-	width: 15%;
-	height: 400px;
-
-	/*外观*/
-	background-color: #999999;
-
-	/*定位*/
-	margin: 0px auto;
-	float: left;
-
-	/*其它*/
-}
-#configs {
-	/*尺寸*/
-	width: 84%;
-	height: 100%;
-
-	/*外观*/
-	background-color: #dddddd;
-
-	/*定位*/
-	margin-left: 1%;
-	float: right;
 
 	/*其它*/
 }
