@@ -12,8 +12,8 @@ if(isset($_COOKIE['autoLogin'])&&$_COOKIE["autoLogin"]=='yes')
     }
 }
 ?>
-﻿<!DOCTYPE html>
 
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8" />
@@ -35,7 +35,7 @@ if(isset($_COOKIE['autoLogin'])&&$_COOKIE["autoLogin"]=='yes')
 					</div>
 					<!--此处是俱乐部名称-->
 					<div id="left_head_txt">
-						
+
 					</div>
 				</div>
 				<div id="left_body">
@@ -55,7 +55,7 @@ if(isset($_COOKIE['autoLogin'])&&$_COOKIE["autoLogin"]=='yes')
 						</div>
 						<!--用户昵称-->
 						<div id="left_foot_profile_username">
-							
+
 						</div>
 					</button>
 					<button id="left_foot_exit">
@@ -72,7 +72,7 @@ if(isset($_COOKIE['autoLogin'])&&$_COOKIE["autoLogin"]=='yes')
 			<div id="middle">
 				<div id="middle_head">
 					<p id="middle_head_title">
-						
+
 					</p>
 				</div>
 				<div id="middle_body">
@@ -84,37 +84,37 @@ if(isset($_COOKIE['autoLogin'])&&$_COOKIE["autoLogin"]=='yes')
 						<!--内容简介-->
 						<div class="brief">
 							<p></p>
-						</div>					
+						</div>
 					</div>
 				</div>
 				<div id="middle_foot">
-					
+
 				</div>
 			</div>
 			<div id="right">
 				<div id="right_head">
 					<!--标题-->
 					<p id="right_head_title">
-						
+
 					</p>
 				</div>
 				<div id="right_body">
 					<!--内容-->
 					<div id="right_body_content">
-										
+
 					</div>
 					<!--评论-->
 					<div id="right_body_comment">
-										
+
 					</div>
 				</div>
 				<div id="right_foot">
-					
+
 				</div>
 			</div>
 			<div id="action_bar">
 				<div id="action_bar_shade">
-					
+
 				</div>
 				<button id="action_bar_search" onclick="boxDisplay('search_panel')">
 					<img src="image/search.png" />
@@ -124,10 +124,10 @@ if(isset($_COOKIE['autoLogin'])&&$_COOKIE["autoLogin"]=='yes')
 				</button>
 				<button id="action_bar_collect">
 					<img src="image/collect_before.png" />
-				</button>			
+				</button>
 				<button id="action_bar_reply" onclick="boxDisplay('reply_panel')">
 					<img src="image/reply.png" />
-				</button>				
+				</button>
 			</div>
 			<div id="search_panel">
 				<div id="search_panel_shade">
@@ -146,7 +146,7 @@ if(isset($_COOKIE['autoLogin'])&&$_COOKIE["autoLogin"]=='yes')
 		</div>
 		<div id="signup_layer">
 			<div id="signup_layer_shade">
-				
+
 			</div>
 			<button id="close_layer" onclick="hideLayer('signup_layer')">
 				<img src="image/close.png">
@@ -169,7 +169,7 @@ if(isset($_COOKIE['autoLogin'])&&$_COOKIE["autoLogin"]=='yes')
 		</div>
 		<div id="login_layer">
 			<div id="login_layer_shade">
-				
+
 			</div>
 			<button id="close_layer" onclick="hideLayer('login_layer')">
 				<img src="image/close.png">
