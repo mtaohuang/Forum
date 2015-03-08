@@ -85,9 +85,50 @@ li a {
     display: block;
     text-decoration: none;
     color: #333333;
-    line-height: 60px;
     /*定位*/
+    line-height: 60px;
     float: left;
+}
+#search {
+    /* 搜索 */
+    /*尺寸*/
+    width: 420px;
+    height: 50px;
+    /*外观*/
+    background-color: #f0f0f0;
+    /*定位*/
+    line-height: 60px;
+    float: right;
+    position: relative;
+    top: 5px;
+}
+#search_box {
+    /* 搜索框 */
+    /*尺寸*/
+    width: 320px;
+    height: 45px;
+    /*外观*/
+    border: 0 none;
+    background-color: #f0f0f0;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 10px;
+    /*定位*/
+    position: relative;
+    top: -5px;
+}
+#search_button {
+    /* 搜索按钮 */
+    /*尺寸*/
+    width: 80px;
+    height: 45px;
+    /*外观*/
+    font-size: 18px;
+    border: 0 none;
+    background-color: #f0f0f0;
+    /*定位*/
+    position: relative;
+    top: -5px;
 }
 
 #main {
