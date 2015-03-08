@@ -3,20 +3,106 @@
 /*定位*/
 /*其它*/
 * {
-	/*尺寸*/
-	/*外观*/
 	/*定位*/
 	margin: 0px;
 	padding: 0px;
-	/*其它*/
 }
 body {
-	/*尺寸*/
 	/*外观*/
 	background-color: #f5f5f5;
 	font-size: 16px;
 	font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: lighter;
-	/*定位*/
-	/*其它*/
+}
+#container {
+    /* 整体容器 */
+    /*尺寸*/
+    width: 100%;
+}
+.content {
+    /* 内容容器 */
+    /*尺寸*/
+    width: 1024px;
+    /*定位*/
+    margin: 0px auto;
+}
+#main .content {
+    /* 主题部分的内容容器样式 */
+    /*尺寸*/
+    height: 480px;
+    /*外观*/
+    background-color: #666666;
+}
+#xtra .content {
+    /* 主题部分的内容容器样式 */
+    /*尺寸*/
+    height: 180px;
+    /*外观*/
+    background-color: #555555;
+}
+
+header {
+    /* 顶部栏 */
+    /*尺寸*/
+    width: 100%;
+    height: 96px;
+    /*外观*/
+    background-color: #777777;
+    text-align: right;
+}
+#page_top {
+    /* 上边距 */
+    /*尺寸*/
+    width: 100%;
+    height: 36px;
+    /*外观*/
+    background-color: #999999;
+}
+#logo {
+    /* Logo */
+    /*尺寸*/
+    width: 128px;
+    height: 60px;
+    /*外观*/
+    background-color: #888888;
+    /*定位*/
+    float: left;
+}
+ul {
+    /* 导航 */
+    /*外观*/
+    list-style-type: none;
+}
+li {
+    /* 导航 */
+    /*外观*/
+    display: inline;
+}
+li a {
+    /* 导航链接 */
+    /*尺寸*/
+    width: 155px;
+    /*外观*/
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    line-height: 60px;
+    /*定位*/
+    float: left;
+}
+
+#main {
+    /* 主体部分 */
+    /*尺寸*/
+    width: 100%;
+    height: 480px;
+    /*外观*/
+    background-color: #333333;
+}
+#xtra {
+    /* 附加信息 */
+    /*尺寸*/
+    width: 100%;
+    height: 180px;
+    /*外观*/
+    background-color: #f5f5f5;
 }
