@@ -49,11 +49,10 @@ body {
 .content {
     /* 内容容器 */
     /*尺寸*/
-    width: 1024px;
+    width: 1080px;
     /*定位*/
     margin: 0px auto;
 }
-
 #main .content {
     /* 主体部分的内容容器样式 */
     /*尺寸*/
@@ -162,4 +161,24 @@ input::-ms-clear {
     /*定位*/
     position: relative;
     top: -10px;
+}
+#left {
+	/* 左侧文本&图片 */
+	/*尺寸*/
+	width: 64%;
+	height: 100%;
+	/*外观*/
+	background-color: #123456;
+	/*定位*/
+	float: left;
+}
+#right {
+	/* 右侧登录 */
+	/*尺寸*/
+	width: 36%;
+	height: 100%;
+	/*外观*/
+	background-color: #999999;
+	/*定位*/
+	float: left;
 }
