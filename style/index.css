@@ -39,7 +39,6 @@ body {
     /*外观*/
     background-color: #555555;
 }
-
 header {
     /* 顶部栏 */
     /*尺寸*/
@@ -126,6 +125,7 @@ li a {
     font-size: 18px;
     border: 0 none;
     background-color: #f0f0f0;
+    cursor: pointer;
     /*定位*/
     position: relative;
     top: -5px;
