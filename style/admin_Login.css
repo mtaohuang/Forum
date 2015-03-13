@@ -1,0 +1,32 @@
+#info{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    
+}
+.textbox{
+    width: 180px;
+    height: 25px;
+    margin-bottom: 15px
+}
+#verify{
+    width: 90px;
+    height: 20px;
+    padding-top:10px;
+}
+#info img{
+    position: relative;
+    top: 5px;
+}
+#loginBtn{
+    width: 80px;
+    height: 32px;
+    position: relative;
+    top: 15px; left:  25%;
+}
+#regBtn{
+    width: 80px;
+    height: 32px;
+    position: relative;
+    top: 15px; left:  33%;
+}
