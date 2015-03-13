@@ -24,7 +24,7 @@
 							</ul>
 							<div id="search">
 								<form id="search_form" action="" method="post">
-									<input id="search_box" type="textbox" name="search_box" />
+									<input id="search_box" type="text" name="search_box" />
 									<input id="search_button" type="button" name="search_button" value="搜索" />
 								</form>
 							</div>
@@ -35,18 +35,20 @@
 					</div>
 					<div id="right">
 						<form name="login" method="post">
-							<div id="title">
+							<div id="right_title">
 								<span>登录</span>
 							</div>
 							<div id="login_textbox">
-								<input type="text" name="username" placeholder="用户名" value="" />
-								<input type="password" name="password" placeholder="密码" value="" />
-								<input type="checkbox" name="autoFlag" value="" />
-								<span>记住用户名和密码</span>
+								<input id="login_username" class="textbox" type="text" name="username" placeholder="用户名" value="" />
+								<input id="login_password" class="textbox" type="password" name="password" placeholder="密码" value="" />
 							</div>
-							<div id="login_button">
-								<input type="button" name="login" value="登录" />
+							<div id="login_checkbox">
+								<input id="login_autoflag" type="checkbox" name="autoFlag" value="" />
+								<span>下次自动登录</span>
 							</div>
+
+								<input id="login_button" type="button" name="login" value="登录" />
+
 							<div id="signup_text">
 								还没有Club账户？赶快<a href="#">注册</a>吧！
 							</div>
