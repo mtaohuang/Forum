@@ -31,24 +31,27 @@ header {
     /*外观*/
 	/*定位*/
 	margin: 0 auto;
-	padding-bottom: 280px;
+}
+#page {
+	/* 页面内容 */
+	/*尺寸*/
+	width: 100%;
+	height: 450px;
+	/*外观*/
+	background-color: #f5f5f5;
 }
 footer {
     /* 页脚 */
     /*尺寸*/
     width: 100%;
-    height: 280px;
+    height: 225px;
     /*外观*/
 	background-color: #000000;
 
-	filter: alpha(opacity=50); /*IE滤镜，透明度50%*/
-	-khtml-opacity: 0.5; /*旧版本IE滤镜，透明度50%*/
-	-moz-opacity: 0.5; /*Firefox私有，透明度50%*/
-	opacity: 0.5;/*其他，透明度50%*/
-	/*定位*/
-	position: absolute;
-	bottom: -15px;
-	clear: both;
+	filter: alpha(opacity=60); /*IE滤镜，透明度50%*/
+	-khtml-opacity: 0.6; /*旧版本IE滤镜，透明度50%*/
+	-moz-opacity: 0.6; /*Firefox私有，透明度50%*/
+	opacity: 0.6;/*其他，透明度50%*/
 }
 .content {
     /* 内容容器 */
@@ -65,7 +68,7 @@ header .content {
 footer .content {
     /* 页脚的内容容器样式 */
     /*尺寸*/
-    height: 280px;
+    height: 225px;
 }
 #nav {
     /* 顶部栏 */
@@ -176,6 +179,45 @@ input::-ms-clear {
 	/*定位*/
 	float: left;
 }
+#intro {
+	/* 介绍文字 */
+	/*定位*/
+	margin-top: 100px;
+}
+#intro_title {
+	/* 介绍文字标题 */
+	/*外观*/
+	font-size: 50px;
+	font-weight: lighter;
+	color: #f5f5f5;
+	text-shadow: 0px 0px 10px #000000;
+}
+#intro_content {
+	/* 介绍文字标题 */
+	/*外观*/
+	font-size: 24px;
+	font-weight: lighter;
+	color: #f5f5f5;
+	text-shadow: 0px 0px 5px #000000;
+}
+#setup {
+	/* 创建俱乐部按钮 */
+	/*定位*/
+	margin: 15px 0px;
+}
+#setup_button {
+	/* 登录按钮 */
+	/*尺寸*/
+	width: 150px;
+	height: 45px;
+	/*外观*/
+	font-size: 18px;
+    border: 0 none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+	/*定位*/
+	margin: 20px auto;
+}
 #right {
 	/* 右侧登录 */
 	/*尺寸*/
@@ -220,7 +262,10 @@ input::-ms-clear {
 	/*定位*/
 	margin: 20px auto;
 }
-#page {
-	/* 页面内容 */
-
+#signup_text a {
+	/* 注册链接 */
+	/*外观*/
+	font-size: 18px;
+	text-decoration: none;
+	color: #f5f5f5;
 }
