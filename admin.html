@@ -11,15 +11,15 @@
             <div class="content">
 				<div id="left">
 					<ul>
-						<li><a href="#F1">查看当前Club状态</a></li>
-						<li><a href="#F2">当前Club部长状态</a></li>
-						<li><a href="#F3">删除文章</a></li>
+						<li><a href="#F1" onclick="funcSelect('club_status')">查看当前Club状态</a></li>
+						<li><a href="#F2" onclick="funcSelect('club_leader')">当前Club部长状态</a></li>
+						<li><a href="#F3" onclick="funcSelect('club_article')">删除操作</a></li>
 					</ul>
 				</div>
 				<div id="right">
 					<!-- 查看当前Club状态 -->
 					<div id="club_status">
-						<table><a name="F1"></a>
+						<table>
 							<tr>
 								<td>
 									俱乐部名称
@@ -207,7 +207,7 @@
 					<br>
 					<!-- 当前Club部长状态 -->
 					<div id="club_leader">
-						<table><a name="F2"></a>
+						<table>
 							<tr>
 								<td>
 									俱乐部名称
@@ -350,12 +350,13 @@
 							</tr>
 						</table>
 					</div>
-					<!-- 删除文章 -->
-					<div id="club_status">
+					<!-- 文章操作 -->
+					<div id="club_article">
 
 					</div>
 				</div>
             </div>
 		</div>
+		<script charset="utf-8" src="script/admin.js"></script>
 	</body>
 </html>

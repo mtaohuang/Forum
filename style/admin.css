@@ -58,3 +58,15 @@ table {
     /*  */
     text-align: center;
 }
+#club_status {
+    /*  */
+    display: block;
+}
+#club_leader {
+    /*  */
+    display: none;
+}
+#club_article {
+    /*  */
+    display: none;
+}
