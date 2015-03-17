@@ -2,20 +2,14 @@ function funcSelect(func)
 {
     if(func == "club_status")
     {
-        document.getElementById("club_status").style.display = 'block';
-        document.getElementById("club_leader").style.display = 'none';
-        document.getElementById("club_article").style.display = 'none';
+        document.getElementById("func_frame").src = 'clubStatus.html';
     }
     else if(func == "club_leader")
     {
-        document.getElementById("club_status").style.display = 'none';
-        document.getElementById("club_leader").style.display = 'block';
-        document.getElementById("club_article").style.display = 'none';
+        document.getElementById("func_frame").src = 'clubLeader.html';
     }
     else
     {
-        document.getElementById("club_status").style.display = 'none';
-        document.getElementById("club_leader").style.display = 'none';
-        document.getElementById("club_article").style.display = 'block';
+        document.getElementById("func_frame").src = 'clubArticle.html';
     }
 }
