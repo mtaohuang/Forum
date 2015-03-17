@@ -1,0 +1,52 @@
+.content {
+    /* 内容 */
+    /*外观*/
+    background-color: #111111;
+}
+#left {
+    /* 功能选择 */
+    /*尺寸*/
+    width: 212px;
+    height: 245px;
+    /*外观*/
+    background-color: #677667;
+    /*定位*/
+    float: left;
+    margin: 0px 5px;
+
+    /*Character Selecting Forbidden*/
+	-moz-user-select: none; /*FireFox*/
+	-webkit-user-select: none;  /*Webkit*/
+	-ms-user-select: none;   /*IE*/
+	-khtml-user-select: none; /*Early Browsers*/
+	user-select: none;
+}
+#right {
+    /* 功能操作 */
+    /*尺寸*/
+    width: 848px;
+    height: 800px;
+    /*外观*/
+    background-color: #888777;
+    /*定位*/
+    float: left;
+    margin: 0px 5px;
+}
+li a {
+    /* page导航链接 */
+    /*尺寸*/
+    width: 212px;
+    /*外观*/
+	text-align: center;
+	background-color: #123456;
+    color: #f5f5f5;
+    line-height: 60px;
+    /*定位*/
+    margin: 1px auto;
+}
+li a:hover {
+    /* page导航链接 */
+	/*外观*/
+	background-color: #abcdef;
+    color: #333333;
+}
