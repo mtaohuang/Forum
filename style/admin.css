@@ -7,12 +7,14 @@
     /* 功能选择 */
     /*尺寸*/
     width: 212px;
-    height: 245px;
+    height: 184px;
     /*外观*/
     background-color: #677667;
     /*定位*/
     float: left;
     margin: 0px 5px;
+    position: fixed;
+    top: 10px;
 
     /*Character Selecting Forbidden*/
 	-moz-user-select: none; /*FireFox*/
@@ -31,6 +33,8 @@
     /*定位*/
     float: left;
     margin: 0px 5px;
+    position: relative;
+    left: 222px;
 }
 li a {
     /* page导航链接 */
@@ -49,4 +53,8 @@ li a:hover {
 	/*外观*/
 	background-color: #abcdef;
     color: #333333;
+}
+table {
+    /*  */
+    text-align: center;
 }
