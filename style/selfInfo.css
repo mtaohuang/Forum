@@ -50,3 +50,25 @@
     border-radius: 5px;
     border:white 2px solid;
 }
+#display{
+    margin-left: 35%;
+    margin-top: 3%;
+}
+#selectmenu{
+    width: 222px;
+}
+.textbox{
+    height: 30px;
+    width: 220px;
+    margin-top: 4px;
+    border: orange 1px solid;
+    text-align: center;
+}
+#select_span{
+    position: relative;
+    top: 3px;
+}
+#select_text{
+    position: relative;
+    bottom: 10px;
+}
