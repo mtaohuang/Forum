@@ -32,19 +32,6 @@ header {
 	/*定位*/
 	margin: 0 auto;
 }
-footer {
-    /* 页脚 */
-    /*尺寸*/
-    width: 100%;
-    height: 225px;
-    /*外观*/
-	background-color: #000000;
-
-	filter: alpha(opacity=60); /*IE滤镜，透明度50%*/
-	-khtml-opacity: 0.6; /*旧版本IE滤镜，透明度50%*/
-	-moz-opacity: 0.6; /*Firefox私有，透明度50%*/
-	opacity: 0.6;/*其他，透明度50%*/
-}
 .content {
     /* 内容容器 */
     /*尺寸*/
