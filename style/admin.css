@@ -45,6 +45,7 @@ li a {
 	background-color: #123456;
     color: #f5f5f5;
     line-height: 60px;
+    cursor:pointer;
     /*定位*/
     margin: 1px auto;
 }
