@@ -2,6 +2,10 @@
     padding:0;
     margin: 0;
 }
+#top_background{
+    width:100%;
+    height:250px
+}
 #head{
     position: absolute;
     top: 90px;
@@ -26,13 +30,23 @@
 #left_nav{
     position: relative;
     left: 150px;
-    top: 48px;
+    top: 40px;
     background-color: rgba(50,100,200,0.4);
     width: 220px;
     height: 380px;
-    
+    border-radius: 2px;
 }
 .left_button{
     width: 100%;
     height: 50px;
+}
+#right_block{
+    position: absolute;
+    top: 290px;
+    left: 390px;
+    background-color: rgba(30,30,30,0.1);
+    width: 75%;
+    height: 450px;
+    border-radius: 5px;
+    border:white 2px solid;
 }
