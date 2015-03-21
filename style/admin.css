@@ -29,7 +29,7 @@
     width: 848px;
     height: 800px;
     /*外观*/
-    background-color: #888777;
+    background-color: #fBfBfB;
     /*定位*/
     float: left;
     margin: 0px 5px;
@@ -55,19 +55,8 @@ li a:hover {
 	background-color: #abcdef;
     color: #333333;
 }
-table {
-    /*  */
-    text-align: center;
-}
-#club_status {
-    /*  */
-    display: block;
-}
-#club_leader {
-    /*  */
-    display: none;
-}
-#club_article {
-    /*  */
-    display: none;
+iframe {
+	width: 848px;
+	height: 800px;
+	border: 0px;
 }

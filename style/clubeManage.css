@@ -1,0 +1,51 @@
+body {
+	margin: 0px;
+}
+#container {
+	width: 100%;
+	height: 100%;
+
+	float: left;
+}
+#head {
+	width: 818px;
+	padding: 15px;
+    font-size: 20px;
+	font-weight:bolder;
+
+	float: left;
+	clear: both;
+	border-bottom: 1px solid #DDDDDD;
+}
+#box {
+	margin: 23px;
+	width: 800px;
+
+	float: left;
+
+}
+table {
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+
+	text-align: center;
+}
+thead {
+	height: 40px;
+	background-color: #F7F7F7;
+
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+}
+th {	
+
+	padding: 0px;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+td {	
+	height: 50px;
+	padding: 0px;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
