@@ -89,7 +89,7 @@ li {
 	/*定位*/
 	margin: 20px auto;
 }
-#right {
+.right {
 	/* 右侧登录 */
 	/*尺寸*/
 	width: 36%;
@@ -102,6 +102,45 @@ li {
 	position: relative;
 	top: 80px;
 }
+.login {
+    /*  */
+    display: block;
+}
+.logged {
+    /*  */
+    display: none;
+}
+.logged_icon {
+    text-align: center;
+    width: 50%;
+    height: 60%;
+    margin: 0px auto;
+}
+.logged_icon img {
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 75px;
+}
+.profile_button {
+    text-align: center;
+    width: 60%;
+    height: 40%;
+    margin: 0px auto;
+}
+.button {
+    /*尺寸*/
+    width: 150px;
+    height: 38px;
+    /*外观*/
+    font-size: 18px;
+    border: 0 none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+
+    margin: 5px auto;
+}
+
 .textbox {
 	/* 文本框 */
 	/*尺寸*/

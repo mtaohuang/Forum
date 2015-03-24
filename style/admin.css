@@ -4,7 +4,7 @@
 	/*定位*/
 	float: left;
 }
-#banner_img {	
+#banner_img {
 	/*定位*/
 	padding: 0px 10px;
 	float: left;
@@ -50,8 +50,6 @@
     /*定位*/
     float: left;
     margin: 0px 5px;
-    position: fixed;
-    top: 65px;
 
     /*Character Selecting Forbidden*/
 	-moz-user-select: none; /*FireFox*/
@@ -59,6 +57,14 @@
 	-ms-user-select: none;   /*IE*/
 	-khtml-user-select: none; /*Early Browsers*/
 	user-select: none;
+}
+.mov_left {
+	positon: relative;
+	top: 65px;
+}
+.fix_left {
+	position: fixed;
+	top: 10px;
 }
 #right {
     /* 功能操作 */
@@ -70,8 +76,14 @@
     /*定位*/
     float: left;
     margin: 0px 5px;
-    position: relative;
-    left: 222px;
+}
+.mov_right {
+	position: relative;
+	left: 0px;
+}
+.fix_right {
+	position: relative;
+	left: 222px;
 }
 li a {
     /* page导航链接 */
