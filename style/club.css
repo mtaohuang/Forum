@@ -182,7 +182,6 @@ input::-ms-clear {
 .article {
 	width: 80%;
 	height: 800px;
-	background-color: aqua;
 	float: left;
 }
 
@@ -193,9 +192,24 @@ input::-ms-clear {
 	height: 300px;
 	background-color: aquamarine;
 	float: left;
+	margin: 10px auto;
 }
 
 img {
-	height: 320px;
-	width: auto;
+	width: 100%;
+	height: auto;
+}
+
+#bodytext {
+	background-color: blanchedalmond;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 600px;
+}
+
+#comment {
+	background-color: aliceblue;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 250px;
 }
