@@ -178,3 +178,24 @@ input::-ms-clear {
     top: -10px;
 	left: -5px;
 }
+
+.article {
+	width: 80%;
+	height: 800px;
+	background-color: aqua;
+	float: left;
+}
+
+
+
+.clubinfo {
+	width: 20%;
+	height: 300px;
+	background-color: aquamarine;
+	float: left;
+}
+
+img {
+	height: 320px;
+	width: auto;
+}

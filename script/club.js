@@ -1,5 +1,5 @@
-window.onload = function(){
-    window.onscroll = function(){
+window.onload = function () {
+    window.onscroll = function () {
         var isTop = document.documentElement.scrollTop || document.body.scrollTop;
         if (isTop < 400) {
             document.getElementById("mid_nav").className = 'mov_nav';
