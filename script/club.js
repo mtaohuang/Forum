@@ -3,10 +3,12 @@ window.onload = function () {
         var isTop = document.documentElement.scrollTop || document.body.scrollTop;
         if (isTop < 400) {
             document.getElementById("mid_nav").className = 'mov_nav';
+			document.getElementById("clubinfo").className = 'mov_clubinfo';
             document.getElementById("search").style.display = 'none';
         }
         else {
             document.getElementById("mid_nav").className = 'fix_nav';
+			document.getElementById("clubinfo").className = 'fix_clubinfo';
             document.getElementById("search").style.display = 'block';
         }
         console.log(isTop);
