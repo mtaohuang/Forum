@@ -1,0 +1,31 @@
+header {
+    height: 140px;
+}
+#page {
+    text-align: center;
+    background-color: #56789a;
+}
+.create-textbox {
+    width: 350px;
+    margin: 15px auto;
+}
+#create_button {
+	/* 登录按钮 */
+	/*尺寸*/
+	width: 350px;
+	height: 45px;
+	/*外观*/
+	font-size: 18px;
+    border: 0 none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+	/*定位*/
+	margin: 15px auto;
+}
+
+#create_title {
+    font-size: 25px;
+    color: #f5f5f5;
+    position: relative;
+    top: 15px;
+}
