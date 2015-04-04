@@ -209,15 +209,17 @@ img {
 #bodytext {
 	background-color: #f5f5f5;
 	margin: 10px 10px;
-	height: 600px;
+	height: auto;
 	box-shadow: 0px 2px 5px #333333;
+	padding: 20px 30px;
 }
 
 #comment {
 	background-color: #f5f5f5;
 	margin: 10px 10px;
-	height: 250px;
+	height: auto;
 	box-shadow: 0px 2px 5px #333333;
+	padding: 20px 30px;
 }
 
 #clubicon {
@@ -226,9 +228,21 @@ img {
 	height: 250px;
 	background-color: #f5f5f5;
 	box-shadow: 0px 2px 5px #333333;
+	text-align: center;
+}
+#clubicon img {
+	width: 125px;
+	height: auto;
+	position: relative;
+	top: 40px;
+}
+#clubicon p {
+	position: relative;
+	top: 60px;
+	font-size: 28px;
 }
 
-#clubname {
+#function {
 	margin-top: 10px;
 	width: 260px;
 	height: 60px;
@@ -237,9 +251,61 @@ img {
 }
 
 #clubtext {
-	width: 260px;
-	height: 120px;
+	width: 240px;
+	height: auto;
 	background-color: #f5f5f5;
 	margin-top: 10px;
 	box-shadow: 0px 2px 5px #333333;
+	padding: 10px;
+}
+.functionbutton {
+	margin: 10px 10px;
+	height: 40px;
+	width: 110px;
+	float: left;
+	
+	border: 0 none;
+	
+}
+#bodytext_title {
+	font-size: 28px;
+	width: 50px;
+	line-height: 45px;
+	border-bottom: 1px;
+	border-bottom-style: groove;
+}
+
+.comment_content {
+	margin-top: 15px;
+}
+
+#comment_user {
+	
+}
+
+#commentusername {
+	border: 1px;
+	border-bottom-style: groove;
+	border-bottom-color: darkgray;
+	float: left;
+	font-size: 18px;
+}
+
+#commentdislike {
+	float: right;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+#commentlike {
+	float: right;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+#comment_text {
+	clear: both;
+	border: 1px;
+	border-bottom-style: groove;
+	border-bottom-color: darkgray;
 }
