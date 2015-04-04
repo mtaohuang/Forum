@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="style/main.css" />
 		<link rel="stylesheet" type="text/css" href="style/index.css" />
-		<link rel="stylesheet" type="text/css" href="style/signup.css" />
+		<link rel="stylesheet" type="text/css" href="style/create.css" />
 		<title>主页</title>
 	</head>
 	<body>
@@ -21,7 +21,7 @@
 								<img src="" alt="" />
 							</div>
 							<ul id="nav_ul">
-								<li><a href="index.html">首页</a></li>
+								<li><a href="index.php">首页</a></li>
 								<li><a href="#">微软俱乐部</a></li>
 							</ul>
 							<div id="search">
@@ -38,22 +38,19 @@
 				</div>
 			</header>
 			<div id="page">
-				<div class="content signup">
-					<p id="signup_title">
-						注册
+				<div class="content create">
+					<p id="create_title">
+						创建一个Club
 					</p>
-					<form name="signup" method="post">
+					<form name="create" method="post">
 						<br />
-						<div id="signup_textbox">
-							<input id="signup_username" class="textbox signup-textbox" type="text" name="username" placeholder="用户名" value="" />
+						<div id="create_textbox">
+							<input id="create_clubname" class="textbox create-textbox" type="text" name="clubname" placeholder="Club名称" value="" />
 							<br />
-							<input id="signup_password" class="textbox signup-textbox" type="password" name="password" placeholder="密码" value="" />
+							<input id="create_leadername" class="textbox create-textbox" type="text" name="leadername" placeholder="部长用户名（选填）" value="" />
 							<br />
-							<input id="signup_email" class="textbox signup-textbox" type="email" name="email" placeholder="电子邮件" value="" />
-							<br />
-							<input id="signup_birthday" class="textbox signup-textbox" type="birthday" name="birthday" placeholder="出生日期 xxxx-xx-xx" value="" />
 						</div>
-							<input id="signup_button" type="button" name="signup" value="点击注册" />
+							<input id="create_button" type="button" name="create" value="立即创建" />
 					</form>
 				</div>
 			</div>

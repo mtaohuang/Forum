@@ -21,7 +21,7 @@
 								<img src="" alt="" />
 							</div>
 							<ul id="nav_ul">
-								<li><a href="index.html">首页</a></li>
+								<li><a href="index.php">首页</a></li>
 								<li><a href="#">微软俱乐部</a></li>
 							</ul>
 							<div id="search">
@@ -39,7 +39,7 @@
 							<span id="intro_content">一起学习，一起成长！</span>
 						</div>
 						<div id="setup">
-							<input id="setup_button" type="button" name="setup" onclick="location.href='create.html'" value="创建俱乐部" />
+							<input id="setup_button" type="button" name="setup" onclick="location.href='create.php'" value="创建俱乐部" />
 						</div>
 					</div>
 					<div class="right login">
@@ -57,7 +57,7 @@
 								<input id="login_button" type="button" name="login" value="登录" />
 
 							<div id="signup_text">
-								还没有Club账户？赶快<a href="signup.html">注册</a>吧！
+								还没有Club账户？赶快<a href="signup.php">注册</a>吧！
 							</div>
 						</form>
 					</div>
