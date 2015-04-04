@@ -67,7 +67,13 @@
 					</div>
 				</div>
 				<div id="comment">
-					<p>评论</p>
+					<div id="write_comment">
+						<form id="comment_form" name="comment_form">
+							<textarea id="comment_box" name="comment" placeholder="评论"></textarea>
+							<button class="commentsubmit">提交</button>
+						</form>
+					</div>
+					
 					<div class="comment_content">
 						<div id="comment_user">
 							<div id="commentusername">User ID</div>
