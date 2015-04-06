@@ -47,7 +47,7 @@
 					<ul id="page_ul">
 						<li><a href="clubWenzhang.php">文章</a>
 						</li>
-						<li><a href="clubReping.php">讨论</a>
+						<li><a href="clubReping.php" style="background-color: #abcdef; color: #000000;">讨论</a>
 						</li>
 					</ul>
 					<div id="search">
@@ -58,12 +58,31 @@
 				</div>
 			</div>
 			<div class="article">
-				<div class="titletext">
+				<div class="bodytext">
 					<div id="bodytext_title">
 						Title
 					</div>
 					<div id="bodytext_text">
-						Brief Text
+						Text
+					</div>
+				</div>
+				<div class="comment">
+					<div id="write_comment">
+						<form id="comment_form" name="comment_form">
+							<textarea id="comment_box" name="comment" placeholder="评论"></textarea>
+							<button class="commentsubmit">提交</button>
+						</form>
+					</div>
+					
+					<div class="comment_content">
+						<div id="comment_user">
+							<div id="commentusername">User ID</div>
+							<div id="commentdislike">反对</div>
+							<div id="commentlike">赞成</div>
+						</div>
+						<div id="comment_text">
+							Text
+						</div>
 					</div>
 				</div>
 			</div>
