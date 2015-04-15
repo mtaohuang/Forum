@@ -8,3 +8,27 @@
 8.命名上，8个字母以上有常用缩写的使用缩写
 9.前端人员注意：
     有没有注意有的网站登录不成功会用红色字体显示用户名或密码错误？前端人员请注意在设计有这种需要的页面时把这种文档元素设计好放在文档中，比如注册填表单时的实时信息反馈元素。注意取好一点的名字~默认情况下为显示状态，可以把说明文字显示在那里~
+
+
+
+id int(10)  UNSIGNED AUTO_INCREMENT 
+username varchar(32)  
+email varchar(24)
+password varchar(64)  
+gender enum('m', 'f', 's')
+birthday varchar(8)
+regdate varchar(8) 
+onlinedays tinyint(4) 
+major varchar(32) 
+grade tinyint(4)                        年级
+class varchar(20) 
+homeaddress varchar(32)
+dorm varchar(32)                        寝室
+single tinyint(1)                       情感状况
+note varchar(32) 
+head int                                头像
+school_id varchar(10)                   学号
+section int(11)                         入学年份
+academy varchar(32)                     学院
+
+ 
