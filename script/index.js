@@ -123,6 +123,7 @@ function head_selfInfo() {
         document.getElementById('log_info').style.display = 'none';
     }
 }
+<<<<<<< HEAD
 function setCookie(name, value)
 {
     var Days = 30;
@@ -365,3 +366,6 @@ var MD5 = function (string) {
 
     return temp.toLowerCase();
 }
+=======
+
+>>>>>>> origin/master
