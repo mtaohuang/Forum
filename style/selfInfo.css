@@ -46,23 +46,33 @@
     left: 390px;
     background-color: rgba(30,30,30,0.1);
     width: 75%;
-    height: 450px;
+    padding-bottom:  60px;
+    padding:22px;
     border-radius: 5px;
     border:white 2px solid;
 }
 #display{
-    margin-left: 35%;
-    margin-top: 3%;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+#self_info_fieldset{
+    width: 80%;
+    padding: 40px;
+    margin-left: 5%;
+}
+.item{
+    margin-left: 25%;
 }
 #selectmenu{
-    width: 222px;
+    width: 282px;
 }
 .textbox{
     height: 30px;
-    width: 220px;
+    width: 280px;
     margin-top: 4px;
     border: orange 1px solid;
     text-align: center;
+    font-size: 16px;
 }
 #select_span{
     position: relative;

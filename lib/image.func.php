@@ -7,7 +7,7 @@ require_once ROOT.'/lib/string.func.php';
 function verifyImage($width=100,$height=30,$type=1,$length=4,$line=2,$pixel=60){
 session_start();
 
-$sess_name="verifyNum";
+$sess_name="verifyCode";
 $image=imagecreatetruecolor($width, $height);
 $white=imagecolorallocate($image, 255, 255, 255);
 $black=imagecolorallocate($image, 0, 0, 0);

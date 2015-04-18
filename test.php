@@ -1,6 +1,4 @@
-<?php
-
-if (!defined("ROOT")) {
-    define("ROOT", "D:/xampp/htdocs/forum");
-}
-print_r(dirname(__FILE__));
+<form method="post" action="login_process.php">
+<input name="email">
+<input name="password">
+<input type="submit" value="Ok">

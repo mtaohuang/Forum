@@ -11,7 +11,7 @@ session_start();
 </head>
 <body>
     <img src="image/self_background.jpg" id="top_background"/>
-    <img  id="head" src="data/head/3.jpg"/>
+    <img  id="head" src=<?php echo"data/head/".$_SESSION['head'].".jpg";?>>
     <div id="left_nav" >
         <span id="button1" class="left_button">我的文章</span></br>
         <span id="button2"class="left_button">与我相关</span></br>

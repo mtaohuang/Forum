@@ -1,220 +1,130 @@
+*{
+    margin:0;
+}
 header {
-    height: 600px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(10,10,50);
 }
-li {
-    /* 导航 */
-    /*外观*/
+#Main_logo{
+    margin-top: 5px;
+    margin-left: 82px;
+    border-radius: 4px;
+}
+#head{
+    float: right;
+    height: 60px;
+    width: 60px;
+    margin-top: -8px;
+    margin-right: 12px;
+}
+#navigators{
+    text-align: center;
     display: inline;
-	/*定位*/
-	line-height: 60px;
-	float: left;
+    font-size: 25px;
 }
-#nav_ul li {
-    /* 导航 */
-    /*外观*/
-    display: inline;
+.navigator{
+    margin-left: 80px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    color: wheat;
+    top:-18pt;
 }
-#nav_ul li a {
-    /* 导航链接 */
-    /*尺寸*/
-    width: 120px;
-    /*外观*/
-    color: #f5f5f5;
+.navigator:hover{
+    color:white;
+    background-color: rgba(10,100,60,0.8);
+    border-radius: 3px;
 }
-#page {
-	/* 页面内容 */
-	/*尺寸*/
-	width: 100%;
-	height: auto;
-	/*外观*/
-	background-color: #f5f5f5;
+#log_reg{
+    display: inline-block;
+    float: right;
+    margin: 15px;
+    color: wheat;
+    top:20pt;
+    font-size: 13pt;
+    line-height: 60px;
 }
-#page_ul li a {
-    /* page导航链接 */
-    /*尺寸*/
-    width: 270px;
-    /*外观*/
-	text-align: center;
-	background-color: #123456;
-    color: #f5f5f5;
-}
-#page_ul li a:hover {
-    /* page导航链接 */
-	/*外观*/
-	background-color: #abcdef;
-    color: #333333;
-}
-#left {
-	/* 左侧文本&图片 */
-	/*尺寸*/
-	width: 64%;
-	height: 100%;
-	/*外观*/
-	/*定位*/
-	float: left;
-}
-#intro {
-	/* 介绍文字 */
-	/*定位*/
-	margin-top: 100px;
-}
-#intro_title {
-	/* 介绍文字标题 */
-	/*外观*/
-	font-size: 50px;
-	font-weight: lighter;
-	color: #f5f5f5;
-	text-shadow: 0px 0px 10px #000000;
-}
-#intro_content {
-	/* 介绍文字标题 */
-	/*外观*/
-	font-size: 24px;
-	font-weight: lighter;
-	color: #f5f5f5;
-	text-shadow: 0px 0px 5px #000000;
-}
-#setup {
-	/* 创建俱乐部按钮 */
-	/*定位*/
-	margin: 15px 0px;
-}
-#setup_button {
-	/* 登录按钮 */
-	/*尺寸*/
-	width: 150px;
-	height: 45px;
-	/*外观*/
-	font-size: 18px;
-    border: 0 none;
-    background-color: #f0f0f0;
-    cursor: pointer;
-	/*定位*/
-	margin: 20px auto;
-}
-.right {
-	/* 右侧登录 */
-	/*尺寸*/
-	width: 36%;
-	height: 100%;
-	/*外观*/
-	background-color: #345678;
-	text-align: center;
-	/*定位*/
-	float: left;
-	position: relative;
-	top: 80px;
-}
-.login {
-    /*  */
-    display: block;
-}
-.logged {
-    /*  */
+#log_reg_div{
+    height: 300pt;
+    width: 400pt;
+    background-color:rgba(10,10,30,0.9);
+    position: relative;
+    top: 100pt;
+    border:5px solid wheat;
+    border-radius: 20px;
+    color: wheat;
+    font-size: 14pt;
     display: none;
 }
-.logged_icon {
-    text-align: center;
-    width: 50%;
-    height: 60%;
-    margin: 0px auto;
-}
-.logged_icon img {
-    width: 100px;
-    height: auto;
+
+.log_info{
     position: relative;
-    top: 75px;
+    width: 183px;
+    padding: 4px;
+    margin-top: 16pt;
+    font-size: 16pt;
 }
-.profile_button {
+#log_reg_container{
+    margin-top: 70pt;
+}
+.log_reg_btn{
+    width: 61pt;
+    height: 30pt;
+}
+#log_alert{
+    font-size: 11pt;
+    margin-top: 15pt;
+    margin-left: -6pt;
+}
+#signup {
+    border-radius: 12px;
+    border:5px solid wheat;
+    margin-top: 150px;
     text-align: center;
+    background-color: rgba(10,10,30,0.9);
     width: 60%;
-    height: 40%;
-    margin: 0px auto;
+    height: auto;
+    padding: 10px;
+    display: none;
 }
-.button {
+.signup-textbox {
+    width: 350px;
+    height: 32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 21px;
+    font-family: 微软雅黑;
+    text-align: center;
+}
+#signup_button {
+    /* 登录按钮 */
     /*尺寸*/
-    width: 150px;
+    width: 354px;
     height: 38px;
     /*外观*/
-    font-size: 18px;
+    font-size: 22px;
     border: 0 none;
     background-color: #f0f0f0;
     cursor: pointer;
-
-    margin: 5px auto;
+    margin: 3px auto;
+    margin-bottom: 35px;
 }
 
-.textbox {
-	/* 文本框 */
-	/*尺寸*/
-	width: 80%;
-	height: 45px;
-	/*外观*/
-	border: 0 none;
-    background-color: #f0f0f0;
-    font-size: 15px;
-    font-weight: lighter;
-	margin: 15px auto;
-	padding: 0px 10px;
-}
-#login_checkbox {
-	/* 记住密码 */
-	/*定位*/
-	margin: 10px auto;
-}
-#login_button {
-	/* 登录按钮 */
-	/*尺寸*/
-	width: 65%;
-	height: 45px;
-	/*外观*/
-	font-size: 18px;
-    border: 0 none;
-    background-color: #f0f0f0;
-    cursor: pointer;
-	/*定位*/
-	margin: 20px auto;
-}
-#signup_text a {
-	/* 注册链接 */
-	/*外观*/
-	font-size: 18px;
-	text-decoration: none;
-	color: #f5f5f5;
-}
-.mov_nav {
-    /* 导航条 */
-    /*定位*/
+#signup_title {
+    font-size: 25px;
+    color: #f5f5f5;
     position: relative;
+    top: 15px;
 }
-.fix_nav {
-    /* 固定导航条 */
-    /*定位*/
-    position: fixed;
-    top: 0px;
-    z-index: 1600;
+#checkimg{
+    height: 42px;
+    width: 162px;
+    margin-bottom: -13px;
 }
-.hotclub, .chats, .allclub, .joinus {
-    /* 功能区块 */
-    /*尺寸*/
-    width: 100%;
-    height: 400px;
-    /*外观*/
-    /*background-color: #111111;*/
+#checkcode{
+    width: 181px;
 }
-.hotclub{
-    /*外观*/
-    background-color: #234567;
-}
-.chats{
-    /*外观*/
-    background-color: #345678;
-}
-.allclub{
-    /*外观*/
-    background-color: #456789;
-}
-.joinus{
-    /*外观*/
-    background-color: #56789a;
+#reg_msg{
+    
 }

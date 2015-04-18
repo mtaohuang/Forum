@@ -5,7 +5,7 @@ if (!defined("ROOT")) {
 require_once ROOT.'/lib/mysql.func.php';
 require_once ROOT.'/lib/common.php';
 connect();
-function checkAdmin($sql){
+function check($sql){
     return fetchOne($sql);
 }
 
