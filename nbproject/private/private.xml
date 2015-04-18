@@ -3,15 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/xampp/htdocs/Forum_/lib/mysql.func.php</file>
-            <file>file:/D:/xampp/htdocs/Forum_/selfInfo.php</file>
-            <file>file:/D:/xampp/htdocs/Forum_/login_process.php</file>
-            <file>file:/D:/xampp/htdocs/Forum_/getInfo.php</file>
-            <file>file:/D:/xampp/htdocs/Forum_/script/selfInfo.js</file>
-            <file>file:/D:/xampp/htdocs/Forum_/style/selfInfo.css</file>
-            <file>file:/D:/xampp/htdocs/Forum_/style/index.css</file>
-            <file>file:/D:/xampp/htdocs/Forum_/index.php</file>
-            <file>file:/D:/xampp/htdocs/Forum_/script/index.js</file>
+            <file>file:/D:/xampp/htdocs/Forum/reg_process.php</file>
+            <file>file:/D:/xampp/htdocs/Forum/lib/mysql.func.php</file>
+            <file>file:/D:/xampp/htdocs/Forum/index.php</file>
+            <file>file:/D:/xampp/htdocs/Forum/script/index.js</file>
         </group>
     </open-files>
 </project-private>

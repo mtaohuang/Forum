@@ -13,9 +13,13 @@ onlinedays tinyint,
 major varchar(32),
 grade tinyint,
 class varchar(20),
+section int,
+academy varchar(32),
+school_id varchar(10)  
 homeaddress varchar(32),
 dorm varchar(32),
 single boolean,
+head int,
 note varchar(32)
 );
 

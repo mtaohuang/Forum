@@ -1,5 +1,4 @@
 <?php
-
 if (!defined("ROOT")) {
     define("ROOT", "D:/xampp/htdocs/forum");
 }
@@ -18,10 +17,10 @@ function insert($table, $array) {
     //$keys = join(",", array_keys($array));
     //$vals = "'" . join(",", array_values($array)) . "'";
     $sql = "insert {$table} (username,email,password,head) values({$array['username']},{$array['email']},{$array['password']},0)";
-    mysql_query($sql); 
+    die ($sql);
+    mysql_query($sql);
     return mysql_insert_id();
 }
-
 //记录更新操作
 function update($table, $array, $where = null) {
     foreach ($array as $key => $val) {
@@ -59,7 +58,6 @@ function fetchAll($sql, $result_type = MYSQL_ASSOC) {
     }
     return $rows;
 }
-
 //得到结果集中的记录条数
 function getResultNum($sql) {
     $result = mysql_query($sql);
