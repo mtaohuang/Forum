@@ -5,8 +5,11 @@
         <group>
             <file>file:/D:/xampp/htdocs/Forum/reg_process.php</file>
             <file>file:/D:/xampp/htdocs/Forum/lib/mysql.func.php</file>
+            <file>file:/D:/xampp/htdocs/Forum/data/Forum.sql</file>
             <file>file:/D:/xampp/htdocs/Forum/index.php</file>
+            <file>file:/D:/xampp/htdocs/Forum/conf/configs.php</file>
             <file>file:/D:/xampp/htdocs/Forum/script/index.js</file>
+            <file>file:/D:/xampp/htdocs/Forum/说明及约定.txt</file>
         </group>
     </open-files>
 </project-private>
